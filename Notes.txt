@@ -1,0 +1,5 @@
+Min-Max normalization converts values into a specified range.
+Xnew = X - Xmin / Xmax - Xmin --> min-max-formula
+	​
+
+	​
