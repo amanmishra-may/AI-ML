@@ -1,5 +1,16 @@
 Min-Max normalization converts values into a specified range.
-Xnew = X - Xmin / Xmax - Xmin --> min-max-formula
-	​
+    Xnew = X - Xmin / Xmax - Xmin --> min-max-formula
 
-	​
+    df_scaled = scaler.fit_transform(df) ->short-hand
+
+
+--------------------------------------------------->>>
+EDA means looking at and understanding your dataset before doing further analysis or machine learning.
+    
+    EDA = Exploratory Data Analysis
+    Spread → How far the values are from each other.
+    Outlier : An outlier is a value that is unusually far from the rest of the data.
+    Histogram → "How are my values distributed/Frequency?"
+    Box plot  → "How spread out are my values, and are there unusual values?"
+    bins -> divides the range into a specified number of smaller intervals (bins).
+
